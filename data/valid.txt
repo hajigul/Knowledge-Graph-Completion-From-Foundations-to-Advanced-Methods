@@ -1,0 +1,8 @@
+tokyo	capitalOf	japan
+person_2	parentOf	person_3
+person_11	nationalityOf	france
+person_10	bornIn	cairo
+person_6	bornIn	osaka
+person_6	parentOf	person_7
+person_3	nationalityOf	japan
+paris	locatedIn	france

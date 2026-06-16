@@ -1,0 +1,8 @@
+person_3	sibling	person_2
+person_4	nationalityOf	egypt
+person_7	childOf	person_6
+person_1	bornIn	osaka
+person_9	nationalityOf	japan
+person_8	bornIn	osaka
+person_11	bornIn	lyon
+alexandria	locatedIn	egypt
