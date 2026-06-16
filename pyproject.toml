@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kgc-lectures"
+version = "0.1.0"
+description = "Teaching-oriented Knowledge Graph Completion library with lecture notes"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Your Name", email = "you@example.com" }]
+keywords = ["knowledge graph", "link prediction", "embeddings", "TransE", "ComplEx", "RotatE"]
+dependencies = [
+    "torch>=2.0",
+    "numpy>=1.21",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+kgc-train = "scripts.train:main"
+
+[tool.setuptools.packages.find]
+include = ["kgc*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

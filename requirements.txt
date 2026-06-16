@@ -1,0 +1,6 @@
+# Core dependencies for the KGC library
+torch>=2.0
+numpy>=1.21
+
+# Development / testing (optional but recommended)
+pytest>=7.0
